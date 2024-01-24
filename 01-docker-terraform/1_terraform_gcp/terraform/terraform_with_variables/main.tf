@@ -27,7 +27,7 @@ resource "google_storage_bucket" "demo-bucket" {
     action {
       type = "AbortIncompleteMultipartUpload"
     }
-  }
+  
 }
 
 
